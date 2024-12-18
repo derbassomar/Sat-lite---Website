@@ -1,0 +1,140 @@
+:root {
+    --cor-fundo-escuro: #090c11; 
+    --cor-texto-claro: #b9c4ca; 
+    --cor-azul-brilhante: #5999cf;  
+    --cor-azul-profundo: #39465e; 
+    --cor-azul-sutil: #517294; 
+    --cor-branca: #ffffff; 
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+img[alt="logo"]{
+    width: 48px;
+}
+.logo-texto{
+    display: flex;
+    position: absolute;
+    top: 20px;
+    font-size: 17px;
+    margin-left: 50px;
+}
+.heder-satelite,.navegar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3em;
+    z-index: 8;
+}
+.heder-satelite{
+    background-color: var(--cor-azul-brilhante);
+    justify-content: space-between;
+    padding: 0 10%;
+    height: 3.5em;
+     box-shadow: 1px 1px 4px var(--cor-fundo-escuro);
+}
+.menu{
+    font-size: 17px;
+    padding: 6px;
+    border: transparent;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    background: var(--cor-azul-profundo);
+    color: white;
+    border-radius: 4px;
+}
+.navegar,a{
+    text-decoration: none;
+    font-weight: bold
+}
+.parallax1{
+     
+        background-image: url('satelite-imagens/paralax1.png');
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      
+}
+.parallax2{
+    
+        background-image: url('satelite-imagens/paralax\ 2.png');
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.titulo-parax1{
+    
+        font-family: 'Orbitron', sans-serif; 
+        font-size: 3rem; 
+        text-transform: uppercase; 
+        color: #00d1ff; 
+        text-shadow: 0 0 10px #00d1ff, 0 0 20px #007acc; 
+        letter-spacing: 3px; 
+        margin-bottom: 20px; 
+        text-align: center; 
+        background-color: var(--cor-azul-profundo);
+      }
+      
+
+.Texto-introdutório{
+color: var(--cor-branca);
+}
+
+.Texto-introdutório{
+font-size: 30px;
+text-align: center;
+text-wrap: balance;
+}
+
+.conteiner-card{
+position: absolute;
+top: 990px;
+display: flex;
+ justify-content: center;
+gap: 20px;
+ margin-top: 20px;
+
+
+}
+
+.contnt-card{
+    background-color: #222;
+    padding: 15px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+
